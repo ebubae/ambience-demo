@@ -5,3 +5,9 @@ To run this project locally:
 3. Get a set of QStash [credentials](https://upstash.com/docs/workflow/quickstarts/vercel-nextjs#step-3%3A-configure-environment-variables)
 4. Run the QStash local server with `npx @upstash/qstash-cli dev`
 5. Open the project at `localhost:3000`
+
+```
+Please note: you must have ffmpeg installed on your computer.
+```
+
+See you all the interview!

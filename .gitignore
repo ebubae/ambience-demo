@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Not pushing to prod, no need to save lock files
+pnpm-lock.yaml
+
+# local mp3 files
+*.mp3

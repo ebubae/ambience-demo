@@ -6,11 +6,7 @@
 4. Run the QStash local server with `npx @upstash/qstash-cli dev`
 5. Open the project at `localhost:3000`
 
-```
-Please note: you must have ffmpeg installed on your computer.
-```
-
-## To run transcriptions
+## To run transcriptions:
 
 The following env variables need to be set in `.env.local`
 
@@ -19,4 +15,6 @@ The following env variables need to be set in `.env.local`
 3. Get an uploadthing [token](https://docs.uploadthing.com/getting-started/appdir) and set `UPLOADTHING_TOKEN`
 4. Set the `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` by setting up your [Upstash account](https://upstash.com/docs/redis/quickstarts/nextjs-app-router#2-connect-to-redis). You probably already have an account since we're also using QStash
 
-See you all the interview!
+**Please note: you must have ffmpeg installed on your computer.**
+
+See you all at the interview!
